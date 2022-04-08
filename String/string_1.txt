@@ -1,0 +1,65 @@
+--- Initialize String:---
+
+way 1:
+    string s0;
+
+way 2:
+    string s1("this is my string");
+
+way 3:
+    string s2 = "hello world!";
+
+***REMEMBER: string shound in inside double cout "...";
+
+--- To Copy one string to another: ---
+
+way 1:
+    string  s3(s2); 
+    // This will make a copy of s2 and store it in s3
+
+way 2:
+    string s4 = s3;
+
+way 3:
+    char a[] = {'H','e','l','l','o', '\0'}
+    string s5(a); //OUTPUT: Hello
+
+--- Append String ---
+
+    to append string we can use, 
+
+    my_string.append("this is new text");
+
+    this will remove previous string and replace new value which is pass inside 
+    as append method parameter;
+
+
+--- Remove/Erase/Clear a string ---
+
+    my_string.clear();
+
+this will clear the string container
+
+--- To Check a string is empty or not ---
+
+    my_string.empty()
+
+this will return a boolean value, If string is empty then it will return -> TRUE.
+If one or more character contain a stirng this will return -> FALSE;
+
+--- To count length of a string ---
+
+    my_string.length();
+
+this will return the length of the string
+
+--- To find a word inside a string ---
+
+    stirng s1 = "I love mango juice";
+    int idx = s1.find("mango"); // this will return the index of 
+    the first charachter of the array
+    if the word is not available in the string than .find()
+    will return -1;
+
+--- 
+
